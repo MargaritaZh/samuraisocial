@@ -8,6 +8,7 @@ import { StyleLayout } from "./layouts/layoutStyles.ts";
 function App() {
     return (
         <div className={'container'}>
+            <div>HELLO</div>
             <Header/>
             <StyleLayout.Main>
                 <SideDialogs persons={personsForDialogs}/>
